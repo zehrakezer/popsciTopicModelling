@@ -20,23 +20,23 @@ We can see the keywords for each topic and the weight of each keywords:
 * Topic 2 for some reason children's things, 
 * Topic 4 health and 
 * Topic 6 spatial words.
-![image](https://github.com/zehrakezer/Streamlit_Company_Reviews_Analysis/assets/75537211/945aa30e-1634-4c87-9e2c-dbe6f941cab8)
+![image](https://github.com/zehrakezer/popsciTopicModelling/blob/main/1.png)
 
 When we look at it in general, although it is similar to the main topics, there is not much clarity.
 
 
 Let's visualize it a little more, wordcloud shows the Energy, Space, Covid topics very clearly if we look at the very specific ones.
-![image](https://github.com/zehrakezer/Streamlit_Company_Reviews_Analysis/assets/75537211/945aa30e-1634-4c87-9e2c-dbe6f941cab8)
-![image](https://github.com/zehrakezer/Streamlit_Company_Reviews_Analysis/assets/75537211/945aa30e-1634-4c87-9e2c-dbe6f941cab8)
-![image](https://github.com/zehrakezer/Streamlit_Company_Reviews_Analysis/assets/75537211/945aa30e-1634-4c87-9e2c-dbe6f941cab8)
+![image](https://github.com/zehrakezer/popsciTopicModelling/blob/main/2.png)
+![image](https://github.com/zehrakezer/popsciTopicModelling/blob/main/3.png)
+![image](https://github.com/zehrakezer/popsciTopicModelling/blob/main/4.png)
 
 
 With another visualization method, pyLDAvis, we can see the distance between subjects. To get the best results is to change the parameters so that they do not conflict.
-![image](https://github.com/zehrakezer/Streamlit_Company_Reviews_Analysis/assets/75537211/945aa30e-1634-4c87-9e2c-dbe6f941cab8)
+![image](https://github.com/zehrakezer/popsciTopicModelling/blob/main/5.png)
 As can be seen in this image, since topic 4 and topic 1 overlap, we can get more logical and consistent results by treating them as a single topic.
 
 Let's look at the single topic in detail
-![image](https://github.com/zehrakezer/Streamlit_Company_Reviews_Analysis/assets/75537211/945aa30e-1634-4c87-9e2c-dbe6f941cab8)
+![image](https://github.com/zehrakezer/popsciTopicModelling/blob/main/6.png)
 In topic 5, we can see especially energy and its types.
 
 
